@@ -33,7 +33,7 @@ const LoginScreen = (props) => {
   const loginButtonPressed = () => {
     try {
       dispatch(authActions.login(email, password));
-      props.navigation.navigate("Home");
+      props.navigation.navigate("HomePageTab");
     } catch (err) {
       console.log(err.message);
     }

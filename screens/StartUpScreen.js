@@ -12,7 +12,7 @@ const StartUpScreen = (props) => {
     }
 
     // is token valid?
-    props.navigation.navigate("Home");
+    props.navigation.navigate("HomePageTab");
   }, [props.navigation]);
 
   useEffect(() => {
@@ -32,6 +32,12 @@ const StartUpScreen = (props) => {
   );
 };
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+});
 
 export default StartUpScreen;
