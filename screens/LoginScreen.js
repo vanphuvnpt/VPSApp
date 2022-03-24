@@ -10,7 +10,8 @@ import {
   KeyboardAvoidingView,
   Button,
 } from "react-native";
-
+import Logo from '../components/Logo';
+import { TextInput } from "../components/TextInput";
 // import PrimaryButton from '../components/button-primary';
 // import SecondaryButton from '../components/button-secondary';
 import * as authActions from "../store/actions/auth";

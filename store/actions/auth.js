@@ -27,8 +27,10 @@ export const login = (email, password) => {
     const resData = await response.json();
     console.log(resData);
 
-    const fakeToken = resData.object.accessToken;
-    const fakeUserId = resData.object.userId;
+    // const fakeToken = resData.object.accessToken;
+    // const fakeUserId = resData.object.userId;
+    const fakeToken = "";
+    const fakeUserId = "";
 
     try {
       await AsyncStorage.setItem(
